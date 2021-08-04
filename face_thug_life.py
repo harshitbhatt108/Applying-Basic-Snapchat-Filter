@@ -3,9 +3,9 @@ from PIL import Image
 import numpy as np
 
 # thug life meme mask image path
-maskPath =r"C:\Users\SUNITA BHATT\Downloads\Thug_life.png"
+maskPath =r"C:\Users\Downloads\Thug_life.png"
 # haarcascade path
-cascPath =r"C:\Users\SUNITA BHATT\Downloads\frontalFace10.xml"
+cascPath =r"C:\Users\Downloads\frontalFace10.xml"
 
 # cascade classifier object 
 faceCascade = cv2.CascadeClassifier(cascPath)
